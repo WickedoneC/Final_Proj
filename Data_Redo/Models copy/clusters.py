@@ -43,9 +43,20 @@ X = df.drop("Moody's Rating", axis=1)
 
 from sklearn.cluster import KMeans
 
-k_means = KMeans(n_clusters=16)
+k_means = KMeans(n_clusters=16, random_state=12)
 k_means.fit(X)
 cluster_assignments = k_means.predict(X)
+
+
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+
+# data_train, data_test, target_train, target_test = train_test_split(X, y,
+#                                                                     test_size = 0.25, random_state=123)
+# Instantiate and fit a RandomForestClassifier
+# forest_2 = RandomForestClassifier(n_estimators = 5, max_features= 10, max_depth= 2)
+# forest_2.fit(data_test, target_test)
+# cluster_assignments = forest_2.predict(X)
 
 r = pd.DataFrame(cluster_assignments)
 r["Predicted Rating"] = r[0]
