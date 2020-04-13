@@ -27,11 +27,11 @@ Uses of the model:
 
 The model can be used to predict the Moody's credit rating of a bond, and then compare it to the actual rating for an indication of riskiness.
 
-Can compare model predictions to actual ratings and combine this with fundamental and qualitative research to fuel investment decisions. 
+Compare model predictions to actual ratings and combine this with fundamental and qualitative research to fuel investment decisions. 
 
-Can run the models on a quarterly basis to detect any trends in the predicted ratings, and use that as a basis for further research and decisions.
+Run the models on a quarterly basis to detect any trends in the predicted ratings, and use that as a basis for further research and decisions.
 
-Can look at predicted ratings to take action prior to a ratings change.
+Look at predicted ratings to take action prior to a ratings change.
 
 Can be used on a large, more general scale as an economic indicator.
 
