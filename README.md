@@ -13,7 +13,7 @@ Several models were run with varying degress of success:
  
 <br/>
 
-Model Results:
+# Model Results:
 
 Random Forest performed the best, followed by KNN. However, both models worked much better on a smaller sample of the data.
 
@@ -23,7 +23,7 @@ GridSearch and Cross Validation were used to refine the models and YellowBrick w
 <br/>
 
 
-Uses of the model:
+# Uses of the model:
 
 The model can be used to predict the Moody's credit rating of a bond, and then compare it to the actual rating for an indication of riskiness.
 
@@ -42,7 +42,7 @@ The models and their results can be useful to investors, lenders, and issuers.
 <br/>
 
 
-Improvement and Future Work:
+# Improvement and Future Work:
 
 -better data, cleaner data (paid for data)
 
