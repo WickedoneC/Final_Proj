@@ -1,5 +1,7 @@
 # Moody's Rating Classification
 
+<br/>
+
 # Credit Analysis
 Predicting Moody's credit ratings from a selection of stocks from the Russell 1000 based on their financial data and ratios.
 
